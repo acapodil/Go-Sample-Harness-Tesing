@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Go_Sample_Harness_Tesing_1698427209344-pr-trigger-input-set
+  identifier: Build_Go_Sample_Harness_Tesing_1698427209344prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Harness_Testing
+  pipeline:
+    identifier: Build_Go_Sample_Harness_Tesing_1698427209344
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
